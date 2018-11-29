@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="morelinq" Version="3.0.0" />
+    <PackageReference Include="MoreLinq.Source.MoreEnumerable.Batch" Version="1.0.2">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="RestSharp" Version="106.5.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Comply365.API.Samples.Models\Comply365.API.Samples.Models.csproj" />
+  </ItemGroup>
+
+</Project>
